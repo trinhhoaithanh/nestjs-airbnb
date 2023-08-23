@@ -17,6 +17,6 @@ COPY . .
 EXPOSE 8080
 
 #node index.js => khởi chạy server 
-CMD [ "yarn","start:dev" ]
+CMD [ "yarn","start" ]
 
 
